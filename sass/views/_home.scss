@@ -1,0 +1,100 @@
+
+/*HOME*/
+
+.column{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 30%;
+    padding: 2em;
+    grid-gap: 5em;
+    
+    
+  
+
+}
+
+.home_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 2em; 
+}
+
+.text_home{
+    text-align: center;
+    font-family: sans-serif lighter;
+    letter-spacing:0.2em;
+    color:white;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.2));
+    width: 100%;
+    border-radius: 2em;  
+    
+}
+
+.background__image-principal{
+    background-image: url(../assets/images/photo-home1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  background-size: cover;
+  
+
+}
+
+.grid-container{
+    
+    display: grid;
+    gap:1em;
+    
+
+
+  grid-template: 
+  "header""header""header" 1em 
+  "navbar""navbar""navbar" 1em
+  "main""main""main"5em
+  "footer""footer""footer" 1em
+  ;
+
+    
+}
+
+body{
+    min-height: 100%;
+    text-align: center;
+}
+
+.header{
+    grid-area: header;
+   
+   
+    
+}
+
+
+.navbar{
+    grid-area: navbar;
+    
+}
+
+
+
+.main{
+    grid-area:main ;
+    
+    
+  
+    
+    
+}
+
+.footer{
+    grid-area:footer ;
+    
+    
+}
+
+.menu__link--active{
+    color:#7882A4
+}
+
+/*FIN ESTILOS HOME*/

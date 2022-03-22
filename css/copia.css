@@ -59,6 +59,7 @@ header .navbar{
     justify-content: space-between;
     align-items: center;
     padding:10rem 2rem;
+    
 }
 
 header .logo{
@@ -70,6 +71,8 @@ header .logo{
 header .menu{
     flex-basis: 40%;
     justify-content: space-between;
+    
+    
 }
 
 .menu .menu__item .menu__link{
@@ -77,29 +80,48 @@ header .menu{
     padding: 1rem;
     position: relative;
     
+    
+    
+    
 }
 
 .navbar .sub-menu{
     display: none;
     position: absolute;
     
+    
 }
+
 
 .navbar .menu .menu__item:hover .sub-menu{
     display: block;
+    
     
 }
 
 .menu__item .sub-menu .sub-menu__link{
     padding: 1rem;
     transition: all 2s ease-in-out;
+    color:black;
+    
+  
 }
 .menu__item .sub-menu .sub-menu__link:hover{
     background-color: var(--principal);
     color:var(--secondary);
+    box-shadow: inset -10.5em 0 0 0 #d6d3d6, inset 10.5em 0 0 0;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.2));
+    width: 100%;
+    
+    
+    
 }
 
 
+.menu__item:hover{
+    background:#d6d3d6;
+    box-shadow: 0 0 5px #d6d3d6, 0 0 25px #d6d3d6, 0 0 50px #d6d3d6, 0 0 200px #d6d3d6;
+}
 
 
 .social{
@@ -109,7 +131,9 @@ header .menu{
     margin:0;
     padding: 2rem;
     background-color: var(--secondary);
+    
 }
+
 
 /*INICIO MEDIA QUERIE HOME*/
 @media screen and (max-width:360px){
@@ -158,11 +182,12 @@ header .menu{
 }
 
 .background__image-principal{
-    background-image: url(./assets/images/principal-photo.jpg);
+    background-image: url(../assets/images/photo-home1.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+ 
   background-size: cover;
+  
 
 }
 
@@ -215,6 +240,11 @@ body{
 .footer{
     grid-area:footer ;
     
+    
+}
+
+.menu__link--active{
+    color:#7882A4
 }
 
 /*FIN ESTILOS HOME*/
