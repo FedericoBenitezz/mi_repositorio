@@ -5,6 +5,7 @@ header {
         justify-content: space-between;
         align-items: center;
         padding: 10rem 2rem;
+        @include flex(row,space-between,center,gap);
         .sub-menu {
             display: none;
             position: absolute; }
@@ -15,12 +16,16 @@ header {
 
             .menu {
                 flex-basis: 40%;
-                justify-content: space-between;
+                @include flex(row,space-between,center,gap);
                 &__item{
                     .menu__link{
                         font-size: 1.4em;
                         padding: 1rem;
                         position: relative;
+                        &--active{
+                            @extend.menu__link;
+                            border-bottom:2px solid map-get($colors,c3)
+                        }
                     }
 
                 }

@@ -1,8 +1,26 @@
 /*Variables*/
 
-$principal:#e61414;
+$principal:#414141;
 $secondary:#7882A4;
 $font-primary:"Open Sans",sans-serif;
 
 
-  
+  $colors:(
+      c1:rgb(31, 28, 28),
+      c2: rgb(70, 64, 64),
+      c3:rgb(82, 80, 80),
+      c4:#6f7ba1
+
+  );
+
+  @each $var,$val in $colors{
+
+    .cl-#{$var}{
+        color: #{$val}
+
+
+
+    }
+  }
+
+ 

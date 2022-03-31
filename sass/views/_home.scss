@@ -24,7 +24,7 @@
     text-align: center;
     font-family: sans-serif lighter;
     letter-spacing:0.2em;
-    color:white;
+    color:map-get($colors,c3);
     background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.2));
     width: 100%;
     border-radius: 2em;  
@@ -94,7 +94,7 @@ body{
 }
 
 .menu__link--active{
-    color:#7882A4
+    color:map-get($colors,c4)
 }
 
 /*FIN ESTILOS HOME*/

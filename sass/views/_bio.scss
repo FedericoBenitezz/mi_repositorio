@@ -19,6 +19,7 @@
 }
 .texto-bio{
     padding:5em;
+    @include flex(row,space-between,center,gap);
     display: flex;
     justify-content:end;
    
