@@ -10,19 +10,13 @@
   
 
 }
-.title__bio{
-    font-size: 2em;
-    letter-spacing: 0.2em;
-    
-  
-    
-}
+
 .texto-bio{
     padding:5em;
     @include flex(row,space-between,center,gap);
     display: flex;
     justify-content:end;
-   
+
     
 }
 
@@ -34,6 +28,14 @@
 
 .grid-container-bio{
     
+    .title__bio{
+        font-size: 2em;
+        letter-spacing: 0.2em;
+        
+      
+        
+    }
+
     display: grid;
     gap:1em;
     
@@ -63,3 +65,4 @@ margin-top: 10px;
 
 
 /*FIN ESTILOS BIO*/
+

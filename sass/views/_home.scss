@@ -7,29 +7,41 @@
     grid-auto-rows: 30%;
     padding: 2em;
     grid-gap: 5em;
+   
     
-    
+    &__img{
+        position: relative;
+        top:100px;
+         
+     }
   
 
 }
+
+
+
+
 
 .home_img{
     width: 100%;
     height: 100%;
     object-fit: cover; 
     border-radius: 2em; 
-}
 
-.text_home{
-    text-align: center;
-    font-family: sans-serif lighter;
-    letter-spacing:0.2em;
-    color:map-get($colors,c3);
-    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.2));
-    width: 100%;
-    border-radius: 2em;  
+    .text_home{
+        text-align: center;
+        font-family: sans-serif lighter;
+        letter-spacing:0.2em;
+        color:map-get($colors,c3);
+        background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.2));
+        width: 100%;
+        border-radius: 2em;  
+        
+    }
     
 }
+
+
 
 .background__image-principal{
     background-image: url(../assets/images/photo-home1.jpg);
@@ -53,7 +65,7 @@
   "navbar""navbar""navbar" 1em
   "main""main""main"5em
   "footer""footer""footer" 1em
-  ;
+  
 
     
 }

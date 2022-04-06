@@ -1,20 +1,21 @@
 /*INICIO ESTILOS PORFOLIO*/
 
-.title__porfolio{
-    font-size: 2em;
-    letter-spacing: 0.2em;
-    padding-bottom: 2em;
-    
-}
-.title__porfolio p{
-    background: #414141;
-}
-.text-porfolio{
-    padding-bottom: 4em;
-}
 
 .grid-container-porf{
     
+
+    .title__porfolio{
+        font-size: 2em;
+        letter-spacing: 0.2em;
+        padding-bottom: 2em;
+        
+    }
+    
+    .text-porfolio{
+        padding-bottom: 4em;
+    }
+    
+
     display: grid;
     gap:1em;
     
