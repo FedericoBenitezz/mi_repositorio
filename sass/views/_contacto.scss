@@ -1,5 +1,7 @@
 /*INICIO ESTILOS CONTACTO*/
 
+
+
 .menu__link{
     font-family: "Open Sans", sans-serif;;
 }
@@ -11,20 +13,44 @@
     font-weight: bold;
 }
 
-.title__contact{
-    font-size: 1.4em;
-    letter-spacing: 0.2em;
-    
 
-    .parrafo-contact{
-        font-size:0.7em;
-        letter-spacing:0em;
-        margin-top: 3.5em ;
-    }
+.form-register{
+    padding:30px;
+    margin: auto;
+    box-shadow: 7px 13px 37px $secondary;
+    
+    
 }
 
-.contact-form{
-    margin-top: 10em;
-    
-  
+.form-register h4{
+    font-size: 2em;
+        letter-spacing: 0.2em;
+        padding-bottom: 2em;
+
+}
+
+.controls{
+    width: 100%;
+    padding:1em;
+    border-radius: 0.5em;
+    margin-bottom: 0.8em;
+    box-shadow: 2px 2px 4px rgba(48, 47, 47, 0.3);
+    border: 0.5em;
+    font-family: $font-primary;
+}
+
+.form-register p{
+    height:3em;
+    line-height: 3em;
+}
+.form-register a:hover{
+    text-decoration: underline;
+}
+.form-register .botons{
+    width: 100%;
+    background: white;
+    border:none;
+    padding:1em;
+    margin:1em 0;
+    box-shadow: 2px 2px 4px rgba(48, 47, 47, 0.3);
 }

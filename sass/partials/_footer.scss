@@ -5,5 +5,32 @@
     margin:0;
     padding: 2rem;
     background-color: $secondary;
+    
+   
 }
 
+
+
+.icon{
+    box-shadow: 2px 2px 4px rgba(48, 47, 47, 0.3);
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+    &:hover{
+        transform: scale(1.2);
+        transition: all .4s ease-in-out;
+        
+    }
+   
+}
+
+.icon-instagram{
+    border-radius:20% ;
+    box-shadow: 2px 2px 4px rgba(48, 47, 47, 0.3);
+    transition: all .4s ease-in-out;
+    &:hover{
+        transform: scale(1.2);
+        transition: all .4s ease-in-out;
+        
+    }
+
+}

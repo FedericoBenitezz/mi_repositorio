@@ -7,11 +7,13 @@
     grid-auto-rows: 30%;
     padding: 2em;
     grid-gap: 5em;
+    
    
     
     &__img{
         position: relative;
         top:100px;
+        
          
      }
   
@@ -27,19 +29,47 @@
     height: 100%;
     object-fit: cover; 
     border-radius: 2em; 
+    transition: all .4s ease-in-out;
+    
+   
+    
+    &:hover{
+        transform: scale(0.9);
+        transition: all .4s ease-in-out;}
+       
+        
+    }
+ 
+
+   
+   
 
     .text_home{
         text-align: center;
-        font-family: sans-serif lighter;
-        letter-spacing:0.2em;
-        color:map-get($colors,c3);
-        background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.2));
-        width: 100%;
-        border-radius: 2em;  
+        font-family: $font-primary ;
+        letter-spacing: 0.2em;
+       
+       
+     
+      &:hover{
+        text-decoration: underline;
+        
+      }
+  
+        
         
     }
+
     
-}
+    
+    .botons{
+        font-family: $font-primary ;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+        color:$secondary;
+        box-shadow: 2px 2px 4px $secondary;
+    }
+
 
 
 

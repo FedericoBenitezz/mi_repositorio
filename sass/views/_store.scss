@@ -13,11 +13,11 @@
 .title__store{
     font-size: 2em;
     letter-spacing: 0.2em;
-    padding-bottom: 2em;
+    
 }
 
 .text-store{
-    padding-bottom: 4em;
+    padding-bottom: 7em;
 }
 
 .column__img-store{
@@ -33,7 +33,10 @@
     width: 100%;
     margin:0;
     padding:2em;
-    border-radius: 2em;  
+    border-radius: 2em; 
+    &:hover{
+        transform: scale(0.9);
+        transition: all .4s ease-in-out;} 
     
     
     
@@ -44,6 +47,8 @@
     height: 100%;
     object-fit: cover; 
     border-radius: 2em; 
+   
+  
 }
 
 

@@ -9,22 +9,30 @@ header {
         .sub-menu {
             display: none;
             position: absolute; }
+            
     }
 
         .logo {
             flex-basis: 30%; }
 
             .menu {
+                
                 flex-basis: 40%;
                 @include flex(row,space-between,center,gap);
+                
                 &__item{
+                    transition: all 0.5s ease-in-out;
                     .menu__link{
+                        
                         font-size: 1.4em;
                         padding: 1rem;
                         position: relative;
+                        
+                        
                         &--active{
                             @extend.menu__link;
                             border-bottom:2px solid map-get($colors,c3)
+                            
                         }
                     }
 
@@ -32,24 +40,20 @@ header {
                 .menu__item:hover{
                     background: #d6d3d6;
                     box-shadow: 0 0 5px #d6d3d6, 0 0 25px #d6d3d6, 0 0 50px #d6d3d6, 0 0 200px #d6d3d6;
+                    transition: all 0.5s ease-in-out;
 
 
 
                     .sub-menu{
                         display: block;
+                        
 
                         &__link{
                             padding: 1rem;
                             transition: all 2s ease-in-out;
                             color: black; 
 
-                            &:hover{
-                                background-color: $principal;
-                                color: $secondary;
-                                box-shadow: inset -10.5em 0 0 0 #d6d3d6, inset 10.5em 0 0 0;
-                                background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2));
-                                width: 100%;
-                            }
+                      
 
                         }
                     }

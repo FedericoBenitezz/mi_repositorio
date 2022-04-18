@@ -16,6 +16,7 @@
     @include flex(row,space-between,center,gap);
     display: flex;
     justify-content:end;
+    padding-top: 20em;
 
     
 }
@@ -55,6 +56,7 @@
    .texto-bio{
 padding:5px;
 margin-top: 10px;
+width: 50%;
 
        
         
