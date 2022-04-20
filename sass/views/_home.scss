@@ -27,9 +27,12 @@
 .home_img{
     width: 100%;
     height: 100%;
-    object-fit: cover; 
-    border-radius: 2em; 
+    object-fit: cover;  
     transition: all .4s ease-in-out;
+    border-radius: 2em;
+    background: #e0e0e0;
+    box-shadow:  -10px -10px 20px #bebebe,
+                  10px 10px 20px #ffffff;
     
    
     
@@ -48,11 +51,20 @@
         text-align: center;
         font-family: $font-primary ;
         letter-spacing: 0.2em;
+        
+        transition: all .4s ease-in-out;
+        
        
+        
+        
        
      
       &:hover{
         text-decoration: underline;
+        transform: scale(0.9);
+        transition: all .4s ease-in-out;
+        
+
         
       }
   
@@ -60,28 +72,41 @@
         
     }
 
+  body{
+    background-color: #edf1fc;
+    transition: background-color 1s linear;
+
+  }
+  body:hover{
+    background-color: #ffffff;
     
-    
+  }
     .botons{
         font-family: $font-primary ;
         letter-spacing: 0.1em;
         font-weight: bold;
         color:$secondary;
         box-shadow: 2px 2px 4px $secondary;
+        border-radius: 1em;
+        padding:5px;
+        
     }
 
 
 
 
 .background__image-principal{
-    background-image: url(../assets/images/photo-home1.jpg);
+    background-image: url(../../assets/images/siyuan-KecgLyKCosA-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
- 
   background-size: cover;
+  
+      
+        
   
 
 }
+
 
 .grid-container{
     
@@ -103,6 +128,7 @@
 body{
     min-height: 100%;
     text-align: center;
+    
 }
 
 .header{

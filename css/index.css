@@ -130,8 +130,10 @@ header .menu {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: all .4s ease-in-out;
   border-radius: 2em;
-  transition: all .4s ease-in-out; }
+  background: #e0e0e0;
+  box-shadow: -10px -10px 20px #bebebe, 10px 10px 20px #ffffff; }
   .home_img:hover {
     transform: scale(0.9);
     transition: all .4s ease-in-out; }
@@ -139,19 +141,31 @@ header .menu {
 .text_home {
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.2em; }
+  letter-spacing: 0.2em;
+  transition: all .4s ease-in-out; }
   .text_home:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+    transform: scale(0.9);
+    transition: all .4s ease-in-out; }
+
+body {
+  background-color: #edf1fc;
+  transition: background-color 1s linear; }
+
+body:hover {
+  background-color: #ffffff; }
 
 .botons {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.1em;
   font-weight: bold;
   color: #7882A4;
-  box-shadow: 2px 2px 4px #7882A4; }
+  box-shadow: 2px 2px 4px #7882A4;
+  border-radius: 1em;
+  padding: 5px; }
 
 .background__image-principal {
-  background-image: url(../assets/images/photo-home1.jpg);
+  background-image: url(../../assets/images/siyuan-KecgLyKCosA-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -256,16 +270,20 @@ body {
   width: 100%;
   margin: 0;
   padding: 2em;
-  border-radius: 2em; }
+  border-radius: 2em;
+  transition: all .4s ease-in-out; }
   .parrafo-store:hover {
     transform: scale(0.9);
-    transition: all .4s ease-in-out; }
+    transition: all .4s ease-in-out;
+    text-decoration: overline; }
 
 .home_img-store {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 2em; }
+  border-radius: 2em;
+  background: #e0e0e0;
+  box-shadow: -20px -20px 60px #bebebe, 20px 20px 60px #ffffff; }
 
 .grid-container-store {
   display: grid;
@@ -289,7 +307,7 @@ body {
   box-shadow: 7px 13px 37px #7882A4; }
 
 .form-register h4 {
-  font-size: 2em;
+  font-size: 5em;
   letter-spacing: 0.2em;
   padding-bottom: 2em; }
 
@@ -316,3 +334,6 @@ body {
   padding: 1em;
   margin: 1em 0;
   box-shadow: 2px 2px 4px rgba(48, 47, 47, 0.3); }
+
+.container h4 {
+  font-size: 2em; }

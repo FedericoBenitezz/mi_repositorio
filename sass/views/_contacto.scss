@@ -23,7 +23,7 @@
 }
 
 .form-register h4{
-    font-size: 2em;
+    font-size: 5em;
         letter-spacing: 0.2em;
         padding-bottom: 2em;
 
@@ -37,6 +37,7 @@
     box-shadow: 2px 2px 4px rgba(48, 47, 47, 0.3);
     border: 0.5em;
     font-family: $font-primary;
+  
 }
 
 .form-register p{
@@ -53,4 +54,8 @@
     padding:1em;
     margin:1em 0;
     box-shadow: 2px 2px 4px rgba(48, 47, 47, 0.3);
+}
+
+.container h4{
+    font-size: 2em;
 }
