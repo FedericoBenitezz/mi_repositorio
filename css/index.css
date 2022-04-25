@@ -229,20 +229,21 @@ body {
   grid-template-columns: 30% 50%;
   grid-template-rows: 20em 20em; }
 
+.title__bio {
+  font-size: 2em;
+  letter-spacing: 0.2em; }
+
 .grid-container-bio {
   display: grid;
   gap: 1em;
   grid-template: "header" "header" "header" 10em "navbar" "navbar" "navbar" 10em "main" "main" "main" 5em "footer" "footer" "footer" 1em; }
-  .grid-container-bio .title__bio {
-    font-size: 2em;
-    letter-spacing: 0.2em; }
 
 /*INICIO MEDIA QUERIE BIO*/
 @media screen and (max-width: 360px) {
   .texto-bio {
-    padding: 100px;
+    padding: 5px;
     margin-top: 20px;
-    width: 50%; } }
+    width: 100%; } }
 
 /*FIN MEDIA QUERIE BIO*/
 /*FIN ESTILOS BIO*/
@@ -339,3 +340,10 @@ body {
 
 .thanks {
   font-size: 2em; }
+
+@media screen and (max-width: 380px) {
+  .texto-bio {
+    padding: 5px;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 100px; } }

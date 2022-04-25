@@ -30,7 +30,7 @@
     grid-template-rows: 20em 20em;
 }
 
-.grid-container-bio{
+
     
     .title__bio{
         font-size: 2em;
@@ -39,7 +39,7 @@
       
         
     }
-
+ .grid-container-bio{
     display: grid;
     gap:1em;
     
@@ -48,10 +48,10 @@
   grid-template: 
   "header""header""header" 10em 
   "navbar""navbar""navbar" 10em
-  "main""main""main"5em 
+  "main""main""main" 5em 
   "footer""footer""footer" 1em
-  ;
-
+  
+}
     
 
 /*INICIO MEDIA QUERIE BIO*/
@@ -59,7 +59,9 @@
    .texto-bio{
 padding:5px;
 margin-top: 20px;
-width: 50%;
+width: 100%;
+
+
 
 
        
