@@ -240,8 +240,8 @@ body {
 /*INICIO MEDIA QUERIE BIO*/
 @media screen and (max-width: 360px) {
   .texto-bio {
-    padding: 5px;
-    margin-top: 10px;
+    padding: 100px;
+    margin-top: 20px;
     width: 50%; } }
 
 /*FIN MEDIA QUERIE BIO*/
