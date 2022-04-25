@@ -221,7 +221,8 @@ body {
   gap: gap;
   display: flex;
   justify-content: end;
-  padding-top: 20em; }
+  padding-top: 20em;
+  text-align: center; }
 
 .grid-bio {
   display: grid;
@@ -305,11 +306,24 @@ body {
   padding: 30px;
   margin: auto;
   box-shadow: 7px 13px 37px #7882A4; }
-
-.form-register h4 {
-  font-size: 5em;
-  letter-spacing: 0.2em;
-  padding-bottom: 2em; }
+  .form-register h4 {
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    padding-bottom: 2em; }
+  .form-register p {
+    height: 3em;
+    line-height: 3em; }
+  .form-register a:hover {
+    text-decoration: underline; }
+  .form-register .register {
+    width: 50%;
+    border-radius: 0.5em;
+    margin-bottom: 0.8em;
+    box-shadow: 2px 2px 4px rgba(48, 47, 47, 0.3);
+    border: 0.5em;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 25%;
+    font-weight: bolder; }
 
 .controls {
   width: 100%;
@@ -320,20 +334,8 @@ body {
   border: 0.5em;
   font-family: "Open Sans", sans-serif; }
 
-.form-register p {
-  height: 3em;
-  line-height: 3em; }
-
-.form-register a:hover {
-  text-decoration: underline; }
-
-.form-register .botons {
-  width: 100%;
-  background: white;
-  border: none;
-  padding: 1em;
-  margin: 1em 0;
-  box-shadow: 2px 2px 4px rgba(48, 47, 47, 0.3); }
-
 .container h4 {
+  font-size: 2em; }
+
+.thanks {
   font-size: 2em; }
